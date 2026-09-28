@@ -1,0 +1,18 @@
+{
+  "dataset": "nsl-kdd",
+  "display_name": "NSL-KDD \u2014 Network Intrusion Detection",
+  "train_shape": [
+    30000,
+    117
+  ],
+  "test_shape": [
+    22544,
+    117
+  ],
+  "n_features": 117,
+  "train_malware_pct": 0.4669333333333333,
+  "test_malware_pct": 0.5692423704755145,
+  "smote_applied": false,
+  "scaled": true,
+  "processed_dir": "D:\\University Bullshitz\\9th Semester\\Machine Learning\\Paper\\xmaldetect\\outputs\\nsl-kdd\\processed"
+}

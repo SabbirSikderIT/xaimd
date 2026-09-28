@@ -1,0 +1,18 @@
+{
+  "dataset": "cicids-2017",
+  "display_name": "CICIDS-2017 \u2014 Modern Network Intrusion",
+  "train_shape": [
+    40000,
+    68
+  ],
+  "test_shape": [
+    10000,
+    68
+  ],
+  "n_features": 68,
+  "train_malware_pct": 0.4773,
+  "test_malware_pct": 0.4773,
+  "smote_applied": false,
+  "scaled": true,
+  "processed_dir": "D:\\University Bullshitz\\9th Semester\\Machine Learning\\Paper\\xmaldetect\\outputs\\cicids-2017\\processed"
+}

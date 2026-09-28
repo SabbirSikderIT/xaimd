@@ -1,0 +1,18 @@
+{
+  "dataset": "ember",
+  "display_name": "EMBER \u2014 Windows PE Malware",
+  "train_shape": [
+    560000,
+    118
+  ],
+  "test_shape": [
+    160000,
+    118
+  ],
+  "n_features": 118,
+  "train_malware_pct": 0.5,
+  "test_malware_pct": 0.5,
+  "smote_applied": false,
+  "scaled": true,
+  "processed_dir": "D:\\University Bullshitz\\9th Semester\\Machine Learning\\Paper\\xmaldetect\\outputs\\ember\\processed"
+}

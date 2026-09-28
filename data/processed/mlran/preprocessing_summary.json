@@ -1,0 +1,18 @@
+{
+  "dataset": "mlran",
+  "display_name": "MLRan \u2014 Ransomware Behavioral Features",
+  "train_shape": [
+    3905,
+    483
+  ],
+  "test_shape": [
+    975,
+    483
+  ],
+  "n_features": 483,
+  "train_malware_pct": 0.47759282970550576,
+  "test_malware_pct": 0.47692307692307695,
+  "smote_applied": false,
+  "scaled": false,
+  "processed_dir": "D:\\University Bullshitz\\9th Semester\\Machine Learning\\Paper\\xmaldetect\\outputs\\mlran\\processed"
+}

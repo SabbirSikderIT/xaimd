@@ -1,0 +1,18 @@
+{
+  "dataset": "mh-1m",
+  "display_name": "MH-1M \u2014 Large-Scale Android Hypergraph",
+  "train_shape": [
+    8000,
+    200
+  ],
+  "test_shape": [
+    2000,
+    200
+  ],
+  "n_features": 200,
+  "train_malware_pct": 0.5,
+  "test_malware_pct": 0.5,
+  "smote_applied": false,
+  "scaled": false,
+  "processed_dir": "D:\\University Bullshitz\\9th Semester\\Machine Learning\\Paper\\xmaldetect\\outputs\\mh-1m\\processed"
+}

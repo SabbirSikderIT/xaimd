@@ -1,0 +1,18 @@
+{
+  "dataset": "drebin",
+  "display_name": "DREBIN \u2014 Android Malware Permissions",
+  "train_shape": [
+    2560,
+    100
+  ],
+  "test_shape": [
+    400,
+    100
+  ],
+  "n_features": 100,
+  "train_malware_pct": 0.5,
+  "test_malware_pct": 0.2,
+  "smote_applied": true,
+  "scaled": false,
+  "processed_dir": "D:\\University Bullshitz\\9th Semester\\Machine Learning\\Paper\\xmaldetect\\outputs\\drebin\\processed"
+}
