@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / local tooling
+.idea/
+.vscode/
+*.swp
+.mcp.json
+CLAUDE.md
+.claude/
+.claude-flow/
+.swarm/
+ruvector.db
+
+# Legacy scripts (superseded by run_benchmark.py)
+run_all.py
+run_pipeline.py
+
+# Extra report artifacts (canonical outputs in reports/benchmark/ and reports/figures/)
+reports/datasets/
+reports/tables/
+
+# Raw dataset staging dirs
+data/mh1m_raw/
+data/mlran_raw/
+
+# Legacy pipeline outputs (regenerated locally; canonical artifacts live under reports/ and models/)
+outputs/
+
+# Raw dataset CSVs (download separately; not versioned)
+data/*.csv
+data/*.zip
+data/*.tar
+data/*.gz
+data/download_datasets.py
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs
+*.log
+reports/benchmark_run_log.json
